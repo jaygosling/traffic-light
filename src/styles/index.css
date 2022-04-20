@@ -10,3 +10,48 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+#background {
+   height: 600px;
+   width: 400px;
+}
+.pole {
+    height: 130px;
+    width: 30px;
+}
+.tl-body {
+    height: 350px;
+    width: 150px;
+    border-radius: 20px;
+}
+.bulb {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+.off {
+
+}
+.red-bulb-on {
+    background-color: rgb(220, 53, 69);
+}
+.yellow-bulb-on {
+    background-color: rgb(255, 193, 7);
+}
+.green-bulb-on {
+    background-color: rgb(25, 135, 84);
+}
+.red-bulb-off {
+    background-color: rgba(220, 53, 69, 0.2);
+}
+.yellow-bulb-off {
+    background-color: rgba(255, 193, 7, 0.2);
+}
+.green-bulb-off {
+    background-color: rgba(25, 135, 84, 0.2);
+}
+.red {
+    padding-top: 15px;
+}
+.between-lights {
+    margin-top: 10px;
+}
